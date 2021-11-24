@@ -3,7 +3,7 @@
     margin:  0;
     box-sizing: border-box;
 }
-.textarea {
+.textarea,.sorry,.videocontainer {
     animation-name: start;
     animation-duration: 0.7s;
 }
