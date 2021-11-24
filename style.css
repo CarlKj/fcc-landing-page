@@ -3,6 +3,10 @@
     margin:  0;
     box-sizing: border-box;
 }
+.textarea {
+    animation-name: start;
+    animation-duration: 0.7s;
+}
 header {
     position: fixed;
     top: 0;
@@ -211,4 +215,24 @@ iframe {
     width: 100%;
     height:40vw;
 }
+}
+
+@keyframes start {
+    0% {
+        transform: scaleY(0);
+    }
+    0% {
+        animation-timing-function: cubic-bezier(0.7, 0, 0.84, 0);
+        transform: scaleY(0);
+    }
+    45% {
+        transform: scaleY(1.1);
+    }
+    60% {
+        animation-timing-function: ease-in-out;
+        transform: scaleY(0.9);
+    }
+    75%{
+        transform: scaleY(1);
+    }
 }
